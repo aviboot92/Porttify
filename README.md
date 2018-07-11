@@ -1,2 +1,2 @@
 # Porttify
-Easy steps of creating a basic portfolio
+Easy steps for creating a basic portfolio
