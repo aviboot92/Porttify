@@ -1,0 +1,22 @@
+#bodyContent {
+    margin-top: 20px;
+}
+
+#heading {
+    font-size: 30px;
+}
+#propic {
+    height: auto;
+    width: 180px;
+    position: relative;
+    float: left;
+    margin: 2%;
+}
+#aboutMe {
+    position: relative;
+    float: left;
+}
+#copyRight {
+    margin: 0 auto;
+    text-align: center;
+}

@@ -1,49 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>About VENKAT AVINASH KARRA</title>
     <!-- BootStrap CDN -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
     <!-- Style File Link -->
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Jquery CDN -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
 </head>
+
 <body>
     <!-- NAV Bar  -->
-    <nav class="navbar navbar-default">
+    <!-- uses color (bg-light)  -->
+    <!-- .sticky-top is used to keep the navbar stick to the top -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <!-- Nav Bar Header -->
-        <div class="navbar-header">
-            <a href="#" class="navbar-brand">VENKAT AVINASH KARRA</a>
+        <div class="container">
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand">VENKAT AVINASH KARRA</a>
+            </div>
+            <!-- It generates Ham Burger Icon -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Right side panel of Nav Bar -->
+            <!-- ".justify-content-end" class is for right side on the pannel -->
+            <!-- Add class "active" according to the active page -->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <!-- This is a collapse Div for ham Burger -->
+                <ul class="navbar-nav nav nav-tabs justify-content-end ">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="aboutMe.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactMe.html">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+
         </div>
-        <!-- Right side panel of Nav Bar -->
-                <!-- ".justify-content-end" class is for right side on the pannel -->
-                <!-- Add class "active" according to the active page -->
-        <ul class="nav nav-tabs justify-content-end">
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">About Me</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contact Me</a>
-                </li>
-        </ul>
     </nav>
+
+
+    <!-- Now Main Body -->
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="jumbotron" id="bodyContent">
+                    <h1 class="display-4" id="heading">About Me</h1>
+                    <hr class="my-4">
+                    <img id="propic" src="assets\images\ProPic.jpg" alt="Profile Pic">
+                    <p id="aboutMeContent">Avinash It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
+                        of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                        Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model
+                        text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various
+                        versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour
+                        and the like) Avinash It is a long established fact that a reader will be distracted by the readable
+                        content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less
+                        normal distribution of letters, as opposed to using 'Content here, content here', making it look
+                        like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum
+                        as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in
+                        their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on
+                        purpose (injected humour and the like)
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="card-footer text-muted" id="copyRight">
+        <span> 2 days ago </span>
+    </div>
+
+
+
+
+
 
 
 
 
     <!-- Boot Strap Javascript  -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-<script src="assets/javascript/aboutMe.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+
     <!--  Javascript Link -->
-<script src="assets\javascript\aboutMe.js"></script>
+    <script src="assets/javascript/aboutMe.js"></script>
 </body>
+
 </html>

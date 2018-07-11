@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact AVI</title>
+    <!-- BootStrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <!-- Style File Link -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- NAV Bar  -->
+    <!-- uses color (bg-light)  -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <!-- Nav Bar Header -->
+        <div class="container">
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand">VENKAT AVINASH KARRA</a>
+            </div>
+            <!-- It generates Ham Burger Icon -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Right side panel of Nav Bar -->
+            <!-- ".justify-content-end" class is for right side on the pannel -->
+            <!-- Add class "active" according to the active page -->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <!-- This is a collapse Div for ham Burger -->
+                <ul class="navbar-nav nav nav-tabs justify-content-end ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutMe.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contactMe.html">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+
+    <!-- Now Main Body -->
+
+
+    <div class="container">
+
+        <div class="jumbotron" id="bodyContent">
+            <h1 class="display-4" id="heading">To Contact AVI :</h1>
+            <hr class="my-4">
+            <form>
+
+                <div class="form-group">
+                    <label for="firstNameInput">First Name:</label>
+                    <input type="text" required="required" class="form-control" id="firstNameInput" placeholder="eg: John, Mark, Sam....!">
+                </div>
+                <div class="form-group">
+                    <label for="lastNameInput">Last Name:</label>
+                    <input type="text" required="required" class="form-control" id="lastNameInput" placeholder="eg: Gates, Jobs, Musk....!">
+                </div>
+
+                <div class="form-group">
+                    <label for="emailInput">Email address:</label>
+                    <input type="email" required="required" class="form-control" id="emailInput" placeholder="name@example.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="phone_no">Phone Number (Optional):</label>
+                    <input type="text" name="num" data-validation="number" data-validation-allowing="negative,number" input name="color" data-validation="number"
+                        datavalidation-ignore="$"  class="form-control" id="phone_no" placeholder="Phone Number">
+
+                </div>
+                <!-- Gender Radio Buttons -->
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="maleGender" required="required" name="gender" class="custom-control-input">
+                    <label class="custom-control-label" for="maleGender">Male</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="femaleGender" required="required" name="gender" class="custom-control-input">
+                    <label class="custom-control-label" for="femaleGender">Female</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="otherGender" required="required" name="gender" class="custom-control-input">
+                    <label class="custom-control-label" for="otherGender">Other</label>
+                </div>
+                <br>
+                <br>
+
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Comments/Suggestions:</label>
+                    <textarea class="form-control" placeholder="Feel free to give your honest opinion. Thank you.!" id="exampleFormControlTextarea1"
+                        rows="3"></textarea>
+                </div>
+                <br>
+                <div class="form-group">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="agreeTerm" required>
+                        <label class="form-check-label" for="agreeTerm">
+                            Agree to terms of respecting PRIVACY
+                        </label>
+                    </div>
+                </div>
+                <button class="btn btn-primary" type="submit">SUBMIT</button>
+            </form>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="card-footer text-muted" id="copyRight">
+        <span> 2 days ago </span>
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- Boot Strap Javascript  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+
+    <!--  Javascript Link -->
+    <script src="assets/javascript/aboutMe.js"></script>
+</body>
+
+</html>
