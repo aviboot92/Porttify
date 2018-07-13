@@ -41,15 +41,16 @@ body{
 #navBar{
     background-color:#5c0512;
     border: 2px solid black;
-    margin: 0 auto;
-    
+    margin: 0 auto; 
 }
 #homeIcon{
     font-family: 'Eater', cursive;
 	color:  #793714;
     text-shadow: 1px 1px 2px #C3C36D, 0 0 45px #927E37, 0 0 15px #776F24;
-    background-color: #F1B03A;
-
+}
+#navHead{
+    background-color: aqua;
+    padding-left: 10px;
 }
 
 #heading {
