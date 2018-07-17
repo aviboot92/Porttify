@@ -2,12 +2,14 @@
     margin-top: 20px;
 }
 .nav-link.active {
-    background-color: red !important;
+    background-color: #d33048 !important;
+}
+.tabletnav{
+    color: #C3C36D !important;
 }
 
-
 .projectPic {
-    height: auto;
+    height: 180px;
     width: 180px;
     position: relative;
     float: left;
@@ -45,11 +47,11 @@ body{
 }
 #homeIcon{
     font-family: 'Eater', cursive;
-	color:  #793714;
+	color:  #F1B03A;
     text-shadow: 1px 1px 2px #C3C36D, 0 0 45px #927E37, 0 0 15px #776F24;
 }
 #navHead{
-    background-color: aqua;
+    /* background-color: aqua; */
     padding-left: 10px;
 }
 
@@ -65,4 +67,11 @@ body{
 }
 #imgGrid{
     margin: 0 auto;
+}
+#copyRight{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
