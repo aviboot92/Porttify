@@ -12,6 +12,8 @@
     <!-- Style File Link -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+    <!-- FireBase CDN -->
+    <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
 </head>
 
 <body>
@@ -78,29 +80,29 @@
 
                 <div class="form-group">
                     <label for="phone_no">Phone Number (Optional):</label>
-                    <input type="text" name="num" data-validation="number" data-validation-allowing="negative,number" input name="color" data-validation="number"
+                    <input type="text" name="num" data-validation="number" data-validation-allowing="negative,number"  name="color" data-validation="number"
                         datavalidation-ignore="$"  class="form-control" id="phone_no" placeholder="Phone Number">
 
                 </div>
                 <!-- Gender Radio Buttons -->
                 <div class="custom-control custom-radio custom-control-inline">
-                    <input type="radio" id="maleGender" required="required" name="gender" class="custom-control-input">
+                    <input type="radio" id="maleGender" required="required" name="gender" value="Male" class="custom-control-input">
                     <label class="custom-control-label" for="maleGender">Male</label>
                 </div>
                 <div class="custom-control custom-radio custom-control-inline">
-                    <input type="radio" id="femaleGender" required="required" name="gender" class="custom-control-input">
+                    <input type="radio" id="femaleGender" required="required" name="gender" value="Female" class="custom-control-input">
                     <label class="custom-control-label" for="femaleGender">Female</label>
                 </div>
                 <div class="custom-control custom-radio custom-control-inline">
-                    <input type="radio" id="otherGender" required="required" name="gender" class="custom-control-input">
+                    <input type="radio" id="otherGender" required="required" name="gender" value="Other" class="custom-control-input">
                     <label class="custom-control-label" for="otherGender">Other</label>
                 </div>
                 <br>
                 <br>
-
+                <!-- Comments Text Box -->
                 <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Comments/Suggestions:</label>
-                    <textarea class="form-control" placeholder="Feel free to give your honest opinion. Thank you.!" id="exampleFormControlTextarea1"
+                    <label for="commentSuggestion">Comments/Suggestions:</label>
+                    <textarea class="form-control" placeholder="Feel free to give your honest opinion. Thank you.!" id="commentSuggestion"
                         rows="3"></textarea>
                 </div>
                 <br>
@@ -112,7 +114,7 @@
                         </label>
                     </div>
                 </div>
-                <button class="btn btn-primary" type="submit">SUBMIT</button>
+                <button id="submitBtn" class="btn btn-primary" type="submit">SUBMIT</button>
             </form>
 
         </div>
@@ -143,7 +145,7 @@
         crossorigin="anonymous"></script>
 
     <!--  Javascript Link -->
-    <script src="assets/javascript/aboutMe.js"></script>
+    <script src="assets/javascript/logic.js"></script>
 </body>
 
 </html>
